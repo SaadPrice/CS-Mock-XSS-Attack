@@ -29,7 +29,7 @@ const handleSubmit = e => {
         text:"",
         image:""
       });
-      // Launch first attack here
+      
     }
   }
 
@@ -46,7 +46,7 @@ const handleSubmit = e => {
                         onChange={e => setTask({ ...task, text: e.target.value })}
                         defaultValue="Add a new task!"
       />
-      <br />
+      <br />      
       <label>
         Add an image to your task!
       </label>
@@ -70,7 +70,7 @@ const handleSubmit = e => {
         />
       ))}
     </>
-        {/* Launch second attack here. */}
+        {}
     </>
   )
 }
